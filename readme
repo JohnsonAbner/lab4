@@ -1,0 +1,8 @@
+Just a simple Lab
+
+phase2做法
+
+在console.c的con_write中找到取得的字符
+自己缓冲一下再匹配就好辣
+
+（其实是懒得写了 摸索一下吧
