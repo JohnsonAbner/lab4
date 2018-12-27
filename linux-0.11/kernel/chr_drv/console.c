@@ -455,10 +455,10 @@ static void restore_cur(void)
 	gotoxy(saved_x, saved_y);
 }
 
-char ch1[] = "2017210593";
-char ch2[] = "2017210593-";
-int next1[] = {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0};
-int next2[] = {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0};
+char ch1[] = "___"; // your student number here
+char ch2[] = "___-"; // the same 
+int next1[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // next array of kmp
+int next2[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // the same 
 
 char buf[1000];
 int current_index = 0;
